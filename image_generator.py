@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 import random
 import decimal
-from application_constants import PLAYER_HEADSHOT_RESIZED_PATH
+from application_constants import PLAYER_HEADSHOT_RESIZED_PATH, OUTPUT_HEADSHOT_PATH
 
 def zoom_random(images):
     zoom = float(decimal.Decimal(random.randrange(100, 200))/100)
@@ -37,10 +37,9 @@ def build_player_image():
     average_image = Image.fromarray(np.uint8(average_array))
 
     #save image
-    average_image_path = 'output_headshots/output_image.jpg'
-    average_image.save(average_image_path)
+    average_image.save(OUTPUT_HEADSHOT_PATH)
 
     #display
     average_image.show()
 
-    return average_image_path
+    return OUTPUT_HEADSHOT_PATH

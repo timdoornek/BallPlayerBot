@@ -10,8 +10,8 @@ def main():
     #post to bsky
     post = post_to_bsky(post_text, headshot_path)
     
-    #print(post_text)
-    #print(post.uri)
+    print(post_text)
+    print(post.uri)
 
 if __name__=="__main__":
     main()

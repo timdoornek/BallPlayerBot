@@ -1,6 +1,7 @@
 import namemaker
 import os
 from application_constants import *
+from application_functions import pluralize_word
 import build_name_lists
 import random
 

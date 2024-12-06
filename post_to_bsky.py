@@ -1,8 +1,9 @@
 from atproto import Client
+from application_constants import BSKY_USERNAME, BSKY_PASSWORD
 
 def post_to_bsky(text, image_path):
     client = Client()
-    client.login('username_here', 'password_here')
+    client.login(BSKY_USERNAME, BSKY_PASSWORD)
 
     with open(image_path, 'rb') as f:
         img_data = f.read()
