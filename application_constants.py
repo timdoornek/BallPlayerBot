@@ -3,17 +3,17 @@ BSKY_USERNAME = 'ballplayerbot.bsky.social'
 BSKY_PASSWORD = 'password_here'
 
 #Training words text files
-FIRST_NAME_TXT_NAME = r'home/doornetd/BallPlayerBot/text_files/baseball_first_names.txt'
-LAST_NAME_TXT_NAME = r'home/doornetd/BallPlayerBot/text_files/baseball_last_names.txt'
-ENGLISH_NOUNS_TXT_NAME = r'home/doornetd/BallPlayerBot/text_files/english_nouns.txt'
-ENGLISH_ADJECTIVES_TXT_NAME = r'home/doornetd/BallPlayerBot/text_files/english_adjectives.txt'
-CITY_NAMES_TXT_NAME = r'home/doornetd/BallPlayerBot/text_files/city_names.txt'
-ENGLISH_WORDS_TXT_NAME = r'home/doornetd/BallPlayerBot/text_files/english_words.txt'
+FIRST_NAME_TXT_NAME = r'text_files/baseball_first_names.txt'
+LAST_NAME_TXT_NAME = r'text_files/baseball_last_names.txt'
+ENGLISH_NOUNS_TXT_NAME = r'text_files/english_nouns.txt'
+ENGLISH_ADJECTIVES_TXT_NAME = r'text_files/english_adjectives.txt'
+CITY_NAMES_TXT_NAME = r'text_files/city_names.txt'
+ENGLISH_WORDS_TXT_NAME = r'text_files/english_words.txt'
 
 #image paths
-PLAYER_HEADSHOTS_ARCHIVE_PATH = r'home/doornetd/BallPlayerBot/player_headshots_archive'
-PLAYER_HEADSHOTS_PATH = r'home/doornetd/BallPlayerBot/player_headshots'
-OUTPUT_HEADSHOT_STATIC_PATH = r'home/doornetd/BallPlayerBot/output_headshot/output_headshot_image.jpg'
+PLAYER_HEADSHOTS_ARCHIVE_PATH = r'player_headshots_archive'
+PLAYER_HEADSHOTS_PATH = r'player_headshots'
+OUTPUT_HEADSHOT_STATIC_PATH = r'output_headshot/output_headshot_image.jpg'
 
 #image metainfo
 DEFAULT_IMAGE_WIDTH = 120
